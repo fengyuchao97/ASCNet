@@ -1,0 +1,11 @@
+================ (Tue Oct 17 12:09:47 2023) ================
+gpu_ids: [2, 3] project_name: ASCNet-GZ checkpoint_root: /data/cd/checkpoints num_workers: 1 dataset: CDDataset data_name: GZ batch_size: 1 split: train split_val: val img_size: 256 n_class: 2 net_G: CVPRNet loss: ce mode: rsp_100 optimizer: SGD lr: 0.01 max_epochs: 200 lr_policy: linear lr_decay_iters: 200 checkpoint_dir: /data/cd/checkpoints/ASCNet-GZ vis_dir: vis/ASCNet-GZ loading last checkpoint...
+Eval Historical_best_acc = 0.9183 (at epoch 171)
+
+Begin evaluation...
+Is_training: False. [1,313],  running_mf1: 0.50000
+Is_training: False. [101,313],  running_mf1: 0.49953
+Is_training: False. [201,313],  running_mf1: 0.75502
+Is_training: False. [301,313],  running_mf1: 0.86262
+acc: 0.97985 miou: 0.88755 mf1: 0.93798 mrecall: 0.93324 mprecision: 0.94285 kappa: 0.87596 iou_0: 0.97812 iou_1: 0.79698 F1_0: 0.98894 F1_1: 0.88702 precision_0: 0.98776 precision_1: 0.89795 recall_0: 0.99012 recall_1: 0.87636 
+
