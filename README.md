@@ -1,7 +1,7 @@
 # ASCNet
 
 ## Papers
-* Axial-chunked Spatial-temporal Conversation for Change Detection (Submitted to TOMM) 
+* Axial-chunked Spatial-temporal Conversation for Change Detection (TOMM, 2025) 
 
 ## 1. Environment setup
 This code has been tested on on the workstation with Intel Xeon CPU E5-2690 v4 cores and two GPUs of NVIDIA TITAN V with a single 12G of video memory, Python 3.6, pytorch 1.9, CUDA 10.0, cuDNN 7.6. Please install related libraries before running this code:
